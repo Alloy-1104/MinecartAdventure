@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="style.css">
+<div id="page">
+  <div id="background">
+    <img src="assets\start.png" id="mc-s" class="background-img" alt="">
+    <video src="assets\l.webm" id="mc-l" class="background-movie" autoplay loop muted playsinline></video>
+    <video src="assets\q.webm" id="mc-plain-q" class="background-movie" autoplay loop muted playsinline></video>
+    <video src="assets\left.webm" id="mc-plain-left" class="background-movie" autoplay loop muted playsinline></video>
+    <video src="assets\right.webm" id="mc-plain-right" class="background-movie" autoplay loop muted playsinline></video>
+    <video src="assets\lava.webm" id="mc-plain-lava" class="background-movie" autoplay loop muted playsinline></video>
+    <img src="assets\gameover.png" id="mc-go" class="background-img" alt="">
+  </div>
+  <div id="title">
+    <img class="main-title-part" src="assets/title.png" alt=""></img>
+    <img id="start-button-part" src="assets/start_button.png" alt="">
+  </div>
+  <div id="questioning">
+    <div progress="0">※ムービー</div>
+    <div progress="1">第<span id="question-num">n</span>問</div>
+    <div progress="2">QUESTION</div>
+    <div progress="3">
+      <div id="question-part">
+        <div id="Q-sent">QUESTION</div>
+      </div>
+      <div id="timer">N</div>
+      <div id="slcts-part">
+        <div id="L-slct">
+          SELECTION LEFT
+        </div>
+        <div id="R-slct">
+          SELECTION RIGHT
+        </div>
+      </div>
+      <div id="crct-or-incrct">???</div>
+    </div>
+  </div>
+  <div id="ending">
+    <div id="thanks-part">THANK YOU FOR PLAYING!</div>
+    <div id="score-part">SCORE : <span id="score">????</span></div>
+  </div>
+</div>
+<script type="text/javascript" src="script.js"></script>
